@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/**********************************************/
+/******************HEADER**********************/
+/**********************************************/
+header {
+  display: flex;
+  height: 90vh;
+}
+/**********************************************/
+/********************LOGO**********************/
+/**********************************************/
+.logo {
+  position: relative;
+  width: 952px;
+  height: 918px;
+  background: url(./img/Tomates\ Ananas.jpg) no-repeat;
+  background-size: cover;
+}
+.logo_img {
+  position: absolute;
+  top: 0px;
+  left: 33px;
+  width: 84px;
+  height: 85px;
+}
+/**********************************************/
+/********************NAV***********************/
+/**********************************************/
+nav {
+  width: 968px;
+  height: 918px;
+  display: flex;
+  background: #a6cfa4 0% 0% no-repeat padding-box;
+  font-size: 25px;
+}
+.nav_list ul {
+  height: 85px;
+}
+.nav_list li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+  height: 85px;
+  width: 741px;
+  display: flex;
+  flex-direction: row;
+}
+.nav_list a {
+  text-decoration: none;
+  color: #7a7a7a;
+}
+.nav_list a:hover {
+  color: #fff;
+}
+.nav_button {
+  width: 227px;
+  height: 74px;
+  margin: 0;
+  margin-right: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 25px;
+  background: #edb93b;
+  border: none;
+  box-shadow: 6px 5px 5px rgba(0, 0, 0, 0.164);
+}
+.nav_button a {
+  text-decoration: none;
+  color: white;
+}
+.nav_button a:hover {
+  color: #7a7a7a;
+}
+/**********************************************/
+/***************PARAGRAPHE*********************/
+/**********************************************/
+.nav_paragraph {
+  width: 740px;
+  height: 185px;
+  position: absolute;
+  top: 40%;
+  right: 10%;
+}
+h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  margin-left: 164px;
+  @font-face {
+    font-family: "Ostrich sans";
+    src: url("font/OstrichSans-Heavy.otf");
+  }
+}
+p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  margin-left: 164px;
+}
+/**********************************************/
+/*******************CHEVRON*******************/
+/**********************************************/
+.header_chevron {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  height: 165px;
+  width: 1920px;
+}
+.header_chevron p {
+  font-size: 33px;
+  color: #707070;
+  position: absolute;
+  top: 958px;
+  left: 806px;
+}
+.header_chevron img {
+  width: 59px;
+  height: 34px;
+  color: #707070;
+  position: absolute;
+  top: 1028px;
+  left: 930px;
+}
+
+/**********************************************/
+/**********************************************/
+/**********************************************/
+@media screen and (max-width: );
