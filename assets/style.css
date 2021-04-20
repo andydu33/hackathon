@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'Ostrich sans';
+    src: url("font/OstrichSans-Heavy.otf");   
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+#ftbackground{
+    width: 50%;
+    background-color: #E1BD45; 
+    z-index: 0;
+    height: 2150px;
+    padding-top: 1px;
+}
+
+
+
+#ftrecettefooter{
+    color: #707070;
+}
+
+#fth2{
+    margin-left: 266px;
+    font-family: 'Ostrich sans';
+    font-weight: heavy;
+    font-size: 60px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+#ftsubttl{
+    font-size: 40px;
+    font-family: roboto;
+    margin-left: 266px;
+    margin-bottom: 60px;
+}
+
+
+#ftrecette{
+    box-shadow: 0px 3px 30px #00000029;
+    margin-left: 266px;
+    margin-right: 274px;
+    border-radius: 123px;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    padding-right: 67px;
+}
+
+
+#ftrecette p, #ftrecette ul li{
+    font-family: 'Roboto';
+    font-size: 20px;
+    list-style: none;
+}
+
+
+
+#ftttlrecette h3{
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'Roboto';
+}
+
+
+
+
+
+#ftleftrightrecette{
+    display: grid;
+    grid-template-columns: 60px 326px 95px 832px;
+}
+
+
+
+
+#ftleftrecette{
+    grid-column: 2;
+    margin-top: -90px;
+}
+
+
+
+#ftimgrecette img{
+    width: 326px;
+    height: 326px;
+    border-radius: 100%;
+}
+
+
+
+#ftingrecette{
+    margin-left: -20px;
+}
+
+
+
+#ftpreprecette{
+    grid-column: 4;
+}
+
+#ftpreprecette p {
+    padding-top: 9px;
+}
+
+
+
+
+
+
+#ftrecette_2{
+    box-shadow: 0px 3px 30px #00000029;
+    margin-left: 266px;
+    margin-right: 274px;
+    border-radius: 123px;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    padding-right: 67px;
+    margin-top: 900px;
+}
+
+#ftrecette_2 p, #ftrecette_2 ul li{
+    font-family: 'Roboto';
+    font-size: 20px;
+    list-style: none;
+}
+
+#ftttlrecette_2 h3{
+    text-align: center;
+    margin-left: 160px;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'Roboto';
+}
+
+#ftleftrightrecette_2{
+    display: grid;
+    grid-template-columns: 60px 326px 95px 832px;
+}
+
+#ftleftrecette_2{
+    grid-column: 2;
+    margin-top: -90px;
+}
+
+#ftimgrecette_2 img{
+    width: 326px;
+    height: 326px;
+    border-radius: 100%;
+}
+
+#ftingrecette_2{
+    margin-left: -20px;
+}
+
+
+
+#ftpreprecette_2{
+    grid-column: 4;
+}
+
+#ftpreprecette_2 p {
+    padding-top: 1px;
+    margin-top: -5px;
+}
+
+
+
+#ftcta{
+    position: absolute;
+    margin-top: 1770px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    font-family: Ostrich sans;
+    color: #707070;
+    box-shadow: 3px 3px 17px #0C142D29;
+    border: none;
+    background: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 70px;
+    padding-left: 70px;
+    outline: none;
+    border-radius: 10px;
+}
+
+#ftcta:hover{
+    background-color: #9ED1A9;
+}
+
+#ftcta:active{
+    
+}
+
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: 122px 398px 198px 462px 229px 360px 140px;
+    background-color: #A6CFA4;
+    color: #707070;
+    padding-top: 50px;
+    font-family: roboto;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+#ftnouscontacter{
+    grid-column: 2;
+}
+
+#ftnouscontacter :first-child{
+    font-size: 60px;
+    font-family: Ostrich sans;
+    margin-top: 50px;
+}
+
+#ftreseaux{
+    grid-column: 4;
+}
+
+#ftreseaux p{
+    text-align: center;
+    font-size: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#ftreseauxicons{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+#ftcopyrights{
+    grid-column: 6;
+    font-size: 20px;
+    margin-top: 180px;
+    text-align: right;
+}
+
+
+@media screen {
+    
+}
