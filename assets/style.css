@@ -30,28 +30,30 @@ header {
 /**********************************************/
 /********************NAV***********************/
 /**********************************************/
-nav {
+.header_nav {
   width: 968px;
   height: 918px;
   display: flex;
   background: #a6cfa4 0% 0% no-repeat padding-box;
-  font-size: 25px;
+  position: relative;
 }
-.nav_list ul {
-  height: 85px;
-}
-.nav_list li {
-  list-style: none;
+.nav_list {
   display: inline-block;
-  padding: 15px;
+  justify-content: center;
+  list-style: none;
+  padding: 25px;
   height: 85px;
   width: 741px;
   display: flex;
   flex-direction: row;
 }
 .nav_list a {
+  padding-left: 20px;
+  padding-right: 20px;
   text-decoration: none;
   color: #7a7a7a;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 .nav_list a:hover {
   color: #fff;
@@ -59,12 +61,10 @@ nav {
 .nav_button {
   width: 227px;
   height: 74px;
-  margin: 0;
-  margin-right: 0;
   position: absolute;
   right: 0;
   top: 0;
-  font-size: 25px;
+  font-size: 20px;
   background: #edb93b;
   border: none;
   box-shadow: 6px 5px 5px rgba(0, 0, 0, 0.164);
@@ -72,21 +72,26 @@ nav {
 .nav_button a {
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
 }
 .nav_button a:hover {
   color: #7a7a7a;
 }
+.nav_button a:activated {
+  color: #7a7a7a;
+}
 /**********************************************/
-/***************PARAGRAPHE*********************/
+/***************PARAGRAPH**********************/
 /**********************************************/
 .nav_paragraph {
-  width: 740px;
+  width: 850px;
   height: 185px;
   position: absolute;
   top: 40%;
   right: 10%;
 }
 h1 {
+  text-transform: uppercase;
   color: #fff;
   margin-bottom: 30px;
   margin-left: 164px;
@@ -95,14 +100,14 @@ h1 {
     src: url("font/OstrichSans-Heavy.otf");
   }
 }
-p {
+.nav_paragraph p {
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 30px;
-  margin-left: 164px;
+  margin-left: 167px;
 }
 /**********************************************/
-/*******************CHEVRON*******************/
+/*******************CHEVRON********************/
 /**********************************************/
 .header_chevron {
   background: #ffffff 0% 0% no-repeat padding-box;
@@ -128,4 +133,3 @@ p {
 /**********************************************/
 /**********************************************/
 /**********************************************/
-@media screen and (max-width: );
