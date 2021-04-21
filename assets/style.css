@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 /**********************************************/
+/******************FONTS***********************/
+/**********************************************/
+@font-face {
+  font-family: "ostrich_sansheavy";
+  src: url("ostrichsans-heavy-webfont.woff2") format("woff2"),
+    url("ostrichsans-heavy-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/**********************************************/
 /******************HEADER**********************/
 /**********************************************/
 header {
@@ -53,7 +63,7 @@ header {
   text-decoration: none;
   color: #7a7a7a;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 18px;
 }
 .nav_list a:hover {
   color: #fff;
@@ -91,14 +101,12 @@ header {
   right: 10%;
 }
 h1 {
+  width: 538px;
+  height: 86px;
   text-transform: uppercase;
   color: #fff;
-  margin-bottom: 30px;
   margin-left: 164px;
-  @font-face {
-    font-family: "Ostrich sans";
-    src: url("font/OstrichSans-Heavy.otf");
-  }
+  font-family: "ostrich_sansheavy", sans-serif;
 }
 .nav_paragraph p {
   color: #fff;
@@ -124,10 +132,69 @@ h1 {
 .header_chevron img {
   width: 59px;
   height: 34px;
-  color: #707070;
   position: absolute;
   top: 1028px;
   left: 930px;
+}
+
+/**********************************************/
+/*************MEDIA***QUERIES******************/
+/**********************************************/
+@media screen and (max-width: 414px) {
+  header {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 414px;
+    position: relative;
+  }
+  /**************LOGO*********************/
+  .logo {
+    width: 414px;
+    height: 332px;
+    position: static;
+    background: url(./img/bannière.png) no-repeat;
+    background-size: cover;
+  }
+  .logo_img {
+    z-index: 1;
+    width: 84px;
+    height: 85px;
+    position: absolute;
+    top: 1%;
+  }
+  /**************NAV***********************/
+  .header_nav {
+    width: 414px;
+    height: 356px;
+    display: flex;
+  }
+  /**************PARAGRAPH****************/
+  .nav_paragraph {
+    width: 400px;
+    height: 20px;
+    right: 15%;
+    text-align: center;
+  }
+  h1 {
+    width: 300px;
+    height: 30px;
+    font-size: large;
+    margin-left: 100px;
+    margin-bottom: 15px;
+  }
+  .nav_paragraph p {
+    font-size: 15px;
+    margin-left: 100px;
+  }
+  /***********CHEVRON*********************/
+  .header_chevron {
+    height: 60px;
+    width: 414px;
+  }
+  .header_chevron img {
+    top: 685px;
+    left: 178px;
+  }
 }
 
 /**********************************************/
