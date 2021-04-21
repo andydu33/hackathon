@@ -7,7 +7,7 @@
     max-height: auto;
     position: relative;
     column-gap: 50%; */
-    /* height: 100vh;
+/* height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -58,7 +58,7 @@
 
 .text_body {
    
-} */ 
+} */
 
 
 body {
@@ -66,7 +66,7 @@ body {
     padding: 0;
 }
 
-#image_champ {
+.image_champ {
     display: block;
     margin-left: 25%;
     margin-top: -20%;
@@ -151,9 +151,17 @@ body {
 }
 
 #asidebutton {
-    grid-column: 1+2;
-    grid-row: 4;
-    
+    position: relative;
+    top: 2852px;
+left: 769px;
+width: 366px;
+height: 61px;
+text-align: left;
+font: normal normal 900 38px/61px Ostrich Sans;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+
 }
 
 #asideseven {
@@ -176,7 +184,7 @@ body {
 #asidenine {
     grid-column: 1;
     grid-row: 6;
-   
+
 }
 
 #asideten {
@@ -189,22 +197,64 @@ body {
     letter-spacing: 0px;
     text-align: left;
     padding: 10%;
+
 }
 
+
+
+#dernier_bouton {
+    position: absolute;
+    top: 4412px;
+    left: 776px;
+    width: 369px;
+    height: 61px;
+    text-align: left;
+    font: normal normal 900 38px/61px Ostrich Sans;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin:  692px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 414px) {
-
-
+   
     .container {
         display: block;
-      
+        
     }
-    .container div {
+
+    /* .container div {
         height: 50vh;
-    }
+    } */
+
     .image_body {
         width: 246px;
         height: 246px;
         border-radius: 100%;
     }
+    #asideone , #asidetwo , #asidethree , #asidefour , #asidefive , #asidesix , #asideseven , #asideeight , #asidenine , #asideten {
+        font-size: 75%;
+    }
+    
+    #asideone {
+        width: 414px;
+    height: 452px;
+    }
 }
-
