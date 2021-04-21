@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "OstrichSans-Heavy";
+    src: url("../assets/font/OstrichSans-Heavy.otf") format("otf"),
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -86,7 +91,7 @@ body {
 
 #asidebutton {
     position: absolute;
-    top: 1730px;
+    top: 1855px;
     left: 760px;
     display: block;
     margin: auto;
@@ -143,7 +148,7 @@ body {
 
 #dernier_bouton {
     position: absolute;
-    top: 2185px;
+    top: 2422px;
     left: 70px;
     display: block;
     margin: auto;
@@ -161,57 +166,152 @@ body {
 }
 
 
+
+
 @media screen and (max-width: 414px) {
 
-    .container {
-        display: block;
-        flex-direction: row;
+    .image_duo {
+        width: 400px;
     }
-
-    #asidethree :nth-child(3) {
-        grid-row: 4;
-    }
-
-    #asidefour :nth-child(4) {
-        grid-row: 3;
-    }
-
-.image_duo {
-    width: 400px;
-}
 
     .image_body {
-        width: 246px;
-        height: 246px;
+        width: 319px;
+        height: 319px;
         border-radius: 100%;
     }
 
-    #asideone,
-    #asidetwo,
-    #asidethree,
-    #asidefour,
-    #asidefive,
-    #asidesix,
-    #asideseven,
-    #asideeight,
-    #asidenine,
-    #asideten {
-        font-size: 75%;
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        text-align: center;
     }
 
     #asideone {
         width: 414px;
         height: 452px;
     }
+
     #dernier_bouton {
-        top: 3373px;
-        left: -665px;
-        
+        top: 4910px;
+        left: -670px;
+
     }
-    
+
+    #asideone {
+        grid-column: 1;
+        grid-row: 1;
+        background-color: #EDB93B;
+        padding: auto;
+        text-align: center;
+        font-size: 75%;
+        letter-spacing: 0px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    #asidetwo {
+        grid-column: 1;
+        grid-row: 2;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        letter-spacing: 0px;
+        padding: 10%;
+        font-size: 75%;
+    }
+
+
+    #asidethree {
+        grid-column: 1;
+        grid-row: 4;
+        background-color: #EDB93B;
+        margin-left: auto;
+        margin-right: auto;
+        font: normal normal 300 24px/29px Roboto;
+        letter-spacing: 0px;
+        text-align: left;
+        padding: 10%;
+    }
+
+    #asidefour {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    #asidefive {
+        grid-column: 1;
+        grid-row: 5;
+        background-color: #EDB93B;
+        text-align: center;
+        padding: auto;
+    }
+
+    #asidesix {
+        grid-column: 1;
+        grid-row: 6;
+        margin-left: auto;
+        margin-right: auto;
+        font: normal normal 300 24px/29px Roboto;
+        letter-spacing: 0px;
+        text-align: left;
+        padding: 10%;
+    }
+
     #asidebutton {
-        top: 2880px;
-        left: 25px;
-        
+        position: absolute;
+        top: 3200px;
+        left: 24px;
+        display: block;
+        margin: auto;
+        width: 366px;
+        height: 61px;
+        text-align: left;
+        font: normal normal 900 38px/61px Ostrich Sans;
+        letter-spacing: 0px;
+        color: #707070;
+        background-color: white;
+        opacity: 1;
+        border: none;
+        box-shadow: 3px 3px 17px #00000029;
+
+    }
+
+    #asideseven {
+        grid-column: 1;
+        grid-row: 7;
+        margin-left: auto;
+        margin-right: auto;
+        font: normal normal 300 24px/29px Roboto;
+        letter-spacing: 0px;
+        text-align: left;
+        padding: 10%;
+    }
+
+    #asideeight {
+        grid-column: 1;
+        grid-row: 8;
+        background-color: #A6CFA4;
+    }
+
+    #asidenine {
+        grid-column: 1;
+        grid-row: 10;
+        background-color: #A6CFA4
+    }
+
+    #asideten {
+        grid-column: 1;
+        grid-row: 9;
+        margin-left: auto;
+        margin-right: auto;
+        font: normal normal 300 24px/29px Roboto;
+        letter-spacing: 0px;
+        text-align: left;
+        padding: 10%;
+
     }
 }
