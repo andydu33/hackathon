@@ -50,7 +50,7 @@ section#back_to_top a:hover {
 /**********************************************/
 @font-face {
     font-family: "OstrichSansHeavy";
-    src: url("./font/ostrichsans-heavy-webfont.woff");
+    src: url("font/ostrichsans-heavy-webfont.woff");
 }
 
 /**********************************************/
@@ -67,7 +67,7 @@ header {
     position: relative;
     width: 952px;
     height: 800px;
-    background: url(./img/bannière\ web.png) no-repeat;
+    background: url(img/bannière\ web.png) no-repeat;
     background-size: cover;
 }
 
@@ -227,7 +227,7 @@ h1 {
         width: 414px;
         height: 332px;
         position: static;
-        background: url(./img/bannière.png) no-repeat;
+        background: url(img/bannière.png) no-repeat;
         background-size: cover;
         margin-bottom: 80px;
     }
@@ -524,7 +524,7 @@ ________________________________________________
 
 @font-face {
     font-family: "OstrichSans-Heavy";
-    src: url("../assets/font/OstrichSans-Heavy.otf") format("otf"),
+    src: url("assets/font/OstrichSans-Heavy.otf") format("otf"),
 }
 
 #asidebutton,
