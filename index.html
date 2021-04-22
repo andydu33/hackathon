@@ -1,12 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" type="image/jpg" href="./assets/img/logo.png" />
+    <title>Online-Bio, la ferme écologique</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/img/logo.png" class="logo_img" alt="Logo d'Online-Bio, la ferme écologique">
+        </div>
+        <div class="header_nav">
+            <nav>
+                <ul class="nav_list">
+                    <li><a href="#asideone">Nos producteurs</a></li>
+                    <li><a href="#asideeight">Notre Récolte</a></li>
+                    <li><a href="#ftbackground">Votre Assiette</a></li>
+                </ul>
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <a href="#asideone">
+                            <li>Nos Producteurs</li>
+                        </a>
+                        <a href="#asideeight">
+                            <li>Notre Récolte</li>
+                        </a>
+                        <a href="#ftbackground">
+                            <li>Votre Assiette</li>
+                        </a>
+                        <button id="menu_btn"><a href="https://www.online-bio.fr">Notre Boutique</a></button>
+                    </ul>
+                </div>
+            </nav>
+            <button class="nav_button"><a href="https://www.online-bio.fr">Notre Boutique</a></button>
+            <div class="nav_paragraph">
+                <h1>La ferme écologique</h1>
+                <p>Au coeur de la région parisienne, venez découvrir notre sélection de fruits et légumes cultivés
+                    fièrement par nos producteurs partenaires. <br> Une agriculture écologique, raisonnée et bio. </p>
+            </div>
+        </div>
+    </header>
+    <div class="header_chevron">
+        <p>Commencer la visite</p>
+        <a href="#asideone"><img src="./assets/img/Icon ionic-ios-arrow-down.png" /></a>
+    </div>
+    <!------------------------------------------------------HEADER---------------------------------------------------------->
+
+
+    <section id="back_to_top"><a href="#top"><span class="top-arrow"><img
+                    src="./assets/img/Back to top.png"></span>></a></section>
+
+    <!--------------------------------------------------------MAIN---------------------------------------------------------->
+
+    <!-- <div>
+        <img src="assets/img/png tracet.png" alt="Chemin des légumes chez Online-Bio" id="cheminTerre">
+    </div> -->
+    <div class="container" id="containerandy">
+        <div id="asideone">
+            <h2>NOS PRODUCTEURS</h2>
+            <img class="image_duo" src="assets/img/image web.png" alt="les producteurs de la ferme bio">
+
+        </div>
+        <div id="asidetwo">
+            <h3 class="h3asidetwo">Le commencement...</h3>
+            <p>Ferme Ty Coz c'est une grande histoire de Famille.<br><br> Gwénaël le patriarche est paysan depuis ses
+                quinze
+                ans, sentant l'importance du bio arrivé il converti en 1996, avec Anne, sa femme, il bascule son
+                exploitation en agriculture biologique.<br><br> Eric & Tanguy en développant le plein champ avec leurs
+                parents &
+                Julien en créant des serres pour élargir la gamme de légumes.<br><br> En 2015, Estelle a mis son grain
+                de sel
+                dans le commerce, disponible pour vous servir toute l'année en beaux et bons légumes bio !<br> Il y
+                aussi
+                Anne, la sœur de Gwénaël, qui s'occupe des particuliers en faisant la vente à la ferme.<br><br> Toute
+                notre
+                histoire réside en une volonté d'un avenir meilleur dans nos assiettes et aussi pour nos papilles.</p>
+        </div>
+
+        <div id="asidethree">
+            <h3>L'agriculture biologique...</h3>
+            <p>Nous faisons partie de la coopérative de producteurs bretons Bio Breizh.<br><br> - Respect de la
+                saisonnalité des
+                légumes, interdiction de chauffer les serres.<br> - Diminution de la dose autorisée du cuivre à
+                l'hectare.
+                Interdiction de l'utilisation de variétés CMS.<br> - Ne pas mettre d'engrais dans l'eau d'arrosage des
+                plants.<br><br> Mais c'est aussi grâce à nos salariés qu'aujourd'hui nous avons de beaux légumes !</p>
+
+
+        </div>
+        <div id="asidefour">
+            <img class="image_body" src="assets/img/tracteur.png" alt=" Tracteur à capacité hors normes labourant les champs">
+        </div>
+        <div id="asidefive">
+
+            <img class="image_body" src="assets/img/récolte.png" alt=" Récolte de choux à la main">
+
+        </div>
+        <div id="asidesix">
+            <h3>En accord avec la nature...</h3>
+            <p>Pour enrichir notre sol, nous mettons par exemple, du compost de déchets verts mélangé à de l'algue
+                marine fraiche et des engrais organiques.<br><br> Pour aider la pollinisation des tomates, nous mettons
+                en place
+                des ruches de bourdons, moins agressifs envers les personnes qui prennent soin des plants.<br><br>
+                L'utilisation
+                de variétés résistantes naturellement est une chose primordiale en agriculture biologique.</p>
+        </div>
+
+        <a href="https://www.online-bio.fr/" id="asidebutton" type="button">
+
+            Découvrir le résultat
+
+        </a>
+
+        <div id="asideseven">
+            <h3>L'entretien des pousses...</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+        </div>
+
+        <div id="asideeight">
+            <H2>NOTRE RÉCOLTE</H2>
+
+            <img class="image_body" src="assets/img/courge champs.png" alt="Champs de courges cultivés par les meilleurs paysans de OnlineBio">
+
+        </div>
+        <div id="asidenine">
+            <img class="image_body" src="assets/img/récolte échalote.png" alt="Récolte d'échalotes cultivés par les meilleurs paysans de OnlineBio ">
+        </div>
+
+        <div id="asideten">
+
+            <h3>La récolte à la main...</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <br>
+        </div>
+        <a href="https://www.online-bio.fr/" id="dernier_bouton" type="button">
+            Découvrir la récolte
+        </a>
+    </div>
+
+    <!------------------------------------------------------FOOTER---------------------------------------------------------->
+
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0c4cac9dfb.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
+
 <body>
-    
+
+    <!-- ------------------------ VOTRE ASSIETTE + FOOTER ------------------------- -->
+
+    <div id="ftbackground">
+
+
+        <section id="ftrecettefooter">
+            <h2 id="fth2"> VOTRE ASSIETTE </h2>
+
+            <p id="ftsubttl"> Des idées pour sublimer nos produits... </p>
+
+
+
+            <article id="ftrecette">
+                <div id="ftttlrecette">
+                    <h3> Carpaccio tomate</h3>
+                </div>
+                <div id="ftleftrightrecette">
+                    <div id="ftleftrecette">
+                        <div id="ftimgrecette">
+                            <img src="assets/img/capaccio tomates burrata echalotes.png" alt=" Recette de capaccio tomates burrata echalotes proposée par OnineBio">
+                        </div>
+                        <div id="ftingrecette">
+                            <ul>
+                                <li> Ingrédients: </li>
+                                <li> 3 Belles tomates anciennes </li>
+                                <li> 1 belle échalote </li>
+                                <li> 1 burrata de buffala </li>
+                                <li> 1 Beau bouquet de basilic </li>
+                                <li> 1 Petit bouquet de coriandre </li>
+                                <li> 1 Petit bouquet de menthe </li>
+                                <li> 25cl Huile d’olive </li>
+                                <li> 1 Filet de velours de balsamique </li>
+                                <li> Fleur de sel </li>
+                                <li> Poivre du moulin </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="ftpreprecette">
+                        <p> Préparation : </p>
+
+                        <p> Etape 1 : <br>
+                            Effeuillez les herbes et plongez les feuilles dans une casserole d’eau frémissante, 3 min.
+                            Egouttez-les et plongez-les dans un saladier d’eau glacée, égouttez-les à nouveau et
+                            séchez-les très soigneusement dans du papier absorbant.</p>
+
+                        <p> Etape 2 : <br>
+                            Mixez les herbes avec l’huile dans un blender, puis filtrez à travers une passoire très
+                            fine.
+                            Mettez en bouteille (à garder 15 jours hors du réfrigérateur, car l’huile fige).</p>
+
+                        <p> Etape 3 : <br>
+                            Rincez et séchez les tomates. Coupez-les en tranches fines et disposez-les en rosace sur des
+                            assiettes.
+                            Parsemez d’échalote ciselée finement, ajoutez la burrata, et arrosez d’un filet d’huile
+                            verte et du velours de balsamic.
+                            Poivrez et parsemez de fleur de sel. Servez frais.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article id="ftrecette_2">
+                <div id="ftttlrecette_2">
+                    <h3> Quiche Saumon Brocolis</h3>
+                </div>
+                <div id="ftleftrightrecette_2">
+                    <div id="ftleftrecette_2">
+                        <div id="ftimgrecette_2">
+                            <img src="assets/img/Quiche Saumon Brocolis.png" alt="Recette de quiche proposée par OnlineBio">
+                        </div>
+                        <div id="ftingrecette_2">
+                            <ul>
+                                <li> Ingrédients: </li>
+                                <li> 1 pâte brisée </li>
+                                <li> 250g de saumon frais (style pavé) </li>
+                                <li> 1 échalote </li>
+                                <li> 150g de brocoli </li>
+                                <li> 3 oeufs </li>
+                                <li> 20cl de crème fraîche </li>
+                                <li> Aneth </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="ftpreprecette_2">
+                        <p> Préparation : </p>
+
+                        <p> Cuisson de la pâte à blanc <br>
+                            Mettez votre pâte brisée dans un moule à tarte, piquez-la avec une fourchette et tapissez le
+                            fond de papier sulfurisé. Recouvrez de noyaux de cuisson ou d’haricots secs ou quoi que ce
+                            soit d’assez lourd qui permettra au fond de la pâte de ne pas gonfler.
+                            Mettez la pâte au four pour une cuisson à blanc à 180° pendant 15 minutes.
+                        </p>
+
+                        <p> Cuisson du brocoli et du saumon <br>
+                            Pendant que la pâte précuit, portez à ébullition une casserole rempli d’eau salée.
+                            Coupez le brocoli en petits bouquets et les faire cuire une dizaine de minutes dans l’eau.
+                            Epluchez l’échalote et coupez la finement.
+                            Rincez le saumon sous un filet d’eau froide puis détaillez le en cubes d’environ 2cm.
+                            Dans une poêle, faire fondre un peu de beurre. Ajoutez l’échalote ciselée et laissez-la
+                            dorer un petit peu. <br>
+                            Ajoutez le saumon et faîtes le cuire pendant 3 minutes.
+                        </p>
+
+                        <p> Préparation et cuisson de la tarte <br>
+                            Dans un bol, battez les oeufs avec la crème fraîche. Ajoutez l’aneth fraîche ou en poudre.
+                            Salez et poivrez. <br>
+                            Mettez le saumon et le brocoli sur la pâte précuite et versez votre mélange
+                            oeufs/crème/aneth.
+                            Mettez au four pendant 30 minutes.
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <a href="https://www.online-bio.fr/">
+                <button id="ftcta"> FAITES VOS COURSES !</button>
+            </a>
+        </section>
+    </div>
+
+    <footer>
+        
+            <div id="ftnouscontacter">
+                <p> Nous contacter</p>
+                <p>téléphone : 05.00.00.00.00</p>
+                <p> adresse e-mail : adressmail@mail.com </p>
+            </div>
+
+            <div id="ftreseaux">
+                <div id="ftreseauxicons">
+                    <a href="https://www.instagram.com/onlinebio_fruitetlegume/"><i class="fab fa-3x fa-instagram" id="logoinsta"></i></a>
+                    <a href="https://www.facebook.com/Onlinebio75/"><i class="fab fa-3x fa-facebook-square" id="logofacebook"></i></a>
+                </div>
+                <p> Rendez-vous sur notre Boutique en Ligne pour des livraisons de produits frais en région parisienne</p>
+            </div>
+
+            <div id="ftcopyrights">
+                <a href="MentionsLegales.html"><p>Mentions légales <br>
+                © OnlineBio - 2021 - Tous droits réservés </p> </a>
+        </div>
+    </footer>
+
+
+
+
+<script src="assets/index.js"></script>
 </body>
+
 </html>
