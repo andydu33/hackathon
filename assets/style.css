@@ -55,7 +55,7 @@ body{
     margin-right: 274px;
     border-radius: 123px;
     padding-top: 1px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     background-color: white;
     z-index: 1;
     position: absolute;
@@ -289,23 +289,32 @@ footer{
 #logofacebook{
     animation-name: movingAround;
     animation-duration: 6s;
-    animation-delay: 4s;
+    animation-delay: 5s;
     animation-iteration-count: infinite;
 }
+
+
+/* -------------------------------------------------------------- ANIMATIONS ---------------------------------------------- */
 
 @keyframes movingAround{
     0%{
         transform: translateX(0%);
     }
     3%{
-        transform: translateX(5%);
+        transform: translateX(-6%);
     }
     6%{
-        transform: translateX(-5%);
+        transform: translateX(6%);
+        
     }
     9%{
-        transform: translateX(0%);
+        transform: translateX(-3%);
     }
+
+    12%{
+        transform: translate(0%);
+    }
+
     100%{
         transform: translateX(0%);
     }
@@ -529,6 +538,7 @@ footer{
     margin-top: 30px;
     font-size: 19px;
 }
+
 
 
 }
