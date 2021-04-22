@@ -24,6 +24,7 @@ section#back_to_top {
     padding: 8px;
     padding-left: 3px;
     visibility: hidden;
+    z-index: 1000git;
 }
 
 section {
