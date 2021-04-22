@@ -3,9 +3,8 @@
     src: url("../assets/font/OstrichSans-Heavy.otf") format("otf"),
 }
 
-body {
-    margin: 0;
-    padding: 0;
+A {
+    text-decoration: none;
 }
 
 .image_duo {
@@ -91,7 +90,7 @@ body {
 
 #asidebutton {
     position: absolute;
-    top: 1855px;
+    top: 1890px;
     left: 760px;
     display: block;
     margin: auto;
@@ -107,6 +106,10 @@ body {
     box-shadow: 3px 3px 17px #00000029;
 
 }
+/* #asidebutton :hover {
+    background-color: tomato;
+
+} */
 
 #asideseven {
     grid-column: 1;
@@ -148,7 +151,7 @@ body {
 
 #dernier_bouton {
     position: absolute;
-    top: 2422px;
+    top: 2440px;
     left: 70px;
     display: block;
     margin: auto;
@@ -164,7 +167,6 @@ body {
     border: none;
     box-shadow: 3px 3px 17px #00000029
 }
-
 
 
 
