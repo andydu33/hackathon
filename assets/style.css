@@ -106,6 +106,7 @@ A {
     box-shadow: 3px 3px 17px #00000029;
 
 }
+
 /* #asidebutton :hover {
     background-color: tomato;
 
@@ -168,7 +169,18 @@ A {
     box-shadow: 3px 3px 17px #00000029
 }
 
+#mention_legales {
+    margin-top: 1125px;
+    margin-left: 336px;
+    width: 1248px;
+    height: 2032px;
+    text-align: left;
+    font: normal normal normal 24px/32px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
 
+}
 
 @media screen and (max-width: 414px) {
 
@@ -315,5 +327,17 @@ A {
         text-align: left;
         padding: 10%;
 
+    }
+
+    #mention_legales {
+        margin-top: 795px;
+        margin-left: 51px;
+        width: 316px;
+        height: 2032px;
+        text-align: left;
+        font: normal normal normal 15px/20px Segoe UI;
+        letter-spacing: 0px;
+        color: #707070;
+        opacity: 1;
     }
 }
