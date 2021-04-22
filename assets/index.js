@@ -1,17 +1,21 @@
-const logo = document.getElementById('logo');
-const button = document.querySelector('button');
+const backToTop = document.getElementById("back_to_top")
+console.log(backToTop);
 
-function toggleOrangeGlow() {
-  logo.classList.toggle('has-orange-glow');
-}
+window.addEventListener("scroll",(event) => {
+  console.log(window.scrollY)
 
-button.addEventListener('click', toggleOrangeGlow);
-
-button.addEventListener('click', event => {
-  if (button.getAttribute('aria-pressed') === "false") {
-    button.setAttribute('aria-pressed', 'true');
+  if (window.scrollY > 200){
+      backToTop.classList.add("appear");
   }
-  else {
-    button.setAttribute('aria-pressed', 'false');
+
+  else if (window.scrollY > 201){
+    backToTop.classList.add("disappear");
+
   }
-});
+
+  else{
+    
+  }
+  
+
+})
